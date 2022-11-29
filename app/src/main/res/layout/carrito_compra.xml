@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BD8800"
+    tools:context=".carrito_compra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/carrito"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Carrito de compra"
+                    android:textColor="@color/black"
+                    android:textSize="37dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="349dp">
+
+                <ListView
+                    android:id="@+id/productos"
+                    android:layout_width="match_parent"
+                    android:layout_height="341dp"></ListView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total: "
+                    android:textColor="@color/black"
+                    android:textSize="30dp"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:hint="$"
+                    android:id="@+id/ID_precio"
+                    android:textSize="30dp"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:src="@drawable/carrito" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:id="@+id/id_cantidad"
+                    android:layout_height="wrap_content"
+                    android:hint=" "
+                    android:textSize="30dp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnVerCarro"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="#4CAF50"
+                android:text="Mis productos"
+                android:textColor="#FFFFFF"
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+            <Button
+                android:id="@+id/btnComprar"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="#4CAF50"
+                android:text="comprar"
+                android:textColor="#FFFFFF"
+                />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/txtPedido"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

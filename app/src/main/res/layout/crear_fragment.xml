@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.crear.CrearFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nuevo"
+            android:textColor="#FFE600"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/fragcrearFoto"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/descripcion"
+            app:srcCompat="@drawable/papeplanet"
+            tools:srcCompat="@drawable/papeplanet" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragcrearNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:hint="@string/nombre"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragcrearDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:hint="@string/descripciondulce"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Spinner
+            android:id="@+id/fragcrear_tipoD"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragcrear_fechaC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fechacaducidad"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:background="#00FFFFFF"
+                android:textSize="16dp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/frag_crear_ibtn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:contentDescription="@string/descripcion"
+                android:src="@drawable/ic_menu_slideshow"
+                app:tint="@color/pinkIcons" />
+    </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frag_crear_gramos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gramos"
+                android:importantForAutofill="no"
+                android:background="#00FFFFFF"
+                android:inputType="numberDecimal"
+                android:textSize="16dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragcrear_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/precio"
+                android:importantForAutofill="no"
+                android:background="#00FFFFFF"
+                android:inputType="numberDecimal"
+                android:textSize="16dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fragcrear_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TotalInv"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:background="#00FFFFFF"
+                android:textSize="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp">
+
+            <Button
+                android:id="@+id/fragcrearbtnLimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFE600"
+                android:backgroundTint="@color/pink"
+                android:text="@string/limpiar"
+                android:textSize="16dp" />
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/fragcrearbtnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFE600"
+                android:backgroundTint="@color/pink"
+                android:text="@string/guardar"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

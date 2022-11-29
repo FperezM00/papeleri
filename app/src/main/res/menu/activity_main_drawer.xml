@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_store_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_crear"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="@string/menu_crear" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_editar"
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:title="@string/menu_editar" />
+        <item
+            android:id="@+id/nav_eliminar"
+            android:icon="@drawable/ic_baseline_delete_forever_24"
+            android:title="@string/menu_eliminar"
+            />
+        <item
+            android:id="@+id/nav_listar"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="@string/menu_listar" />
+        <item
+            android:id="@+id/nav_listarinac"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="@string/menu_listar2" />
+
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_baseline_description_24"
+            android:title="@string/menu_acercade" />
+
+    </group>
+</menu>

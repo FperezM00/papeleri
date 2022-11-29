@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.editar.EditarFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_editar"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/fragEditarFoto"
+            android:layout_width="190dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/descripcion"
+            app:srcCompat="@drawable/papeplanet"
+            tools:srcCompat="@drawable/papeplanet" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/frageditarBusqueda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/id"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:backgroundTint="@color/white"
+            android:textSize="16dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/frag_editar_btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="2"
+        android:background="#FFE600"
+        android:backgroundTint="@color/pink"
+        android:text="@string/buscar" />
+
+</LinearLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frageditarNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nombre"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:backgroundTint="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frageditarDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/descripciondulce"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:backgroundTint="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/frag_editar_tipoDulce"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:layout_weight="2"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frageditarFechaCaducidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fechacaducidad"
+                android:backgroundTint="@color/white"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:textSize="16dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageButton
+            android:id="@+id/frag_editar_ibtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_slideshow"
+            android:contentDescription="@string/descripcion"
+            app:tint="@color/pinkIcons"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1"/>
+</LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frageditargramos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gramos"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:backgroundTint="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frageditarPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/precio"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:backgroundTint="@color/white"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/frag_editar_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TotalInv"
+                android:backgroundTint="@color/white"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textSize="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Spinner
+            android:id="@+id/frag_editar_status"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/frageditarbtnLimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFE600"
+                android:backgroundTint="@color/pink"
+                android:text="@string/limpiar"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/frageditarbtnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFE600"
+                android:backgroundTint="@color/pink"
+
+                android:text="@string/guardar"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

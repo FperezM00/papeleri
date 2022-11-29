@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TipoDulce">
+        <item>Seleccione Categoria de articulo</item>
+        <item>PAPELERIA</item>
+        <item>REGALOS</item>
+        <item>OFICINA</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Seleccione status</item>
+        <item>ACTIVO</item>
+        <item>INACTIVO</item>
+        <item>PROMO</item>
+    </string-array>
+
+    <string-array name="p0">
+        <item>No ha seleccionado el area</item>
+    </string-array>
+
+    <string-array name="p1">
+        <item>Seleccione un doctor</item>
+        <item>Dr 1</item>
+        <item>Dr 2</item>
+        <item>Dr 3</item>
+    </string-array>
+
+    <string-array name="p2">
+        <item>Seleccione un doctor</item>
+        <item>Dr 4</item>
+        <item>Dr 5</item>
+        <item>Dr 6</item>
+    </string-array>
+    <string-array name="p3">
+        <item>Seleccione un doctor</item>
+        <item>Dr 7</item>
+        <item>Dr 8</item>
+        <item>Dr 9</item>
+    </string-array>
+
+    <string-array name="p4">
+        <item>Seleccione un doctor</item>
+        <item>Dr 11</item>
+        <item>Dr 11</item>
+        <item>Dr 12</item>
+    </string-array>
+</resources>

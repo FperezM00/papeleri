@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.11600719424460432" />
+        <entry key="app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1935" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/buscar_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/carrito_compra.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/color_text.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/crear_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dialog_carrito.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/dialog_detalle.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/dialog_producto.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/dialogo_paciente.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/dialogo_promocion.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/editar_fragment.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/eliminar_fragment.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/fragment_listar.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/item_rv_carro_compras.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/listar_inac_fragment.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

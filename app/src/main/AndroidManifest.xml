@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.papeleria">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@drawable/papeplanet"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/papeplanet"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hosp3">
+        <activity
+            android:name="com.example.papeleria.Login.LoginActivity"
+            android:label="papeleria planet"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.papeleria.MainActivity"
+            android:label="unidad III"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+             android:name="com.example.papeleria.Login.Registrar"
+            android:label="Registrar"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.example.papeleria.CarritoCompra"
+            android:label="carritoPape"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.example.papeleria.CarritoCompraR"
+            android:label="carritoregalos"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.example.papeleria.CarritoCompraO"
+            android:label="carritooficina"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.example.papeleria.CarritoCompraOtros"
+            android:label="carritootros"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.example.papeleria.Menu"
+            android:label="Menu"
+            android:theme="@style/Theme.Hosp3.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

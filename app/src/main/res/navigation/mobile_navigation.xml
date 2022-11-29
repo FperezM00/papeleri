@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.papeleria.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="com.example.papeleria.ui.listar.ListarFragment"
+        android:label="@string/menu_listar"
+        tools:layout="@layout/fragment_listar" />
+    <fragment
+        android:id="@+id/nav_listarinac"
+        android:name="com.example.papeleria.ui.listarinac.ListarInacFragment"
+        android:label="@string/menu_listar2"
+        tools:layout="@layout/listar_inac_fragment" />
+
+    <fragment
+        android:id="@+id/nav_acercade"
+        android:name="com.example.papeleria.ui.acercade.AcercadeFragment"
+        android:label="@string/menu_acercade"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_editar"
+        android:name="com.example.papeleria.ui.editar.EditarFragment"
+        android:label="@string/menu_editar"
+        tools:layout="@layout/editar_fragment" />
+    <fragment
+        android:id="@+id/nav_eliminar"
+        android:name="com.example.papeleria.ui.eliminar.EliminarFragment"
+        android:label="@string/menu_eliminar"
+        tools:layout="@layout/eliminar_fragment" />
+    <fragment
+        android:id="@+id/nav_crear"
+        android:name="com.example.papeleria.ui.crear.CrearFragment"
+        android:label="@string/menu_crear"
+        tools:layout="@layout/crear_fragment" />
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.example.papeleria.ui.busqueda.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/buscar_fragment" />
+
+</navigation>

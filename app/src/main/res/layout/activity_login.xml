@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="bienvenido"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/papeplanet" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="usuario"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="ingrese su correo electronico"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txtPaswsword"
+                android:layout_width="250dp"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su contraseña"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnIngresar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:text="Ingresar"
+                android:textColor="@color/black"
+                android:textSize="15.8dp" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnI"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:text="Registrarse"
+                android:textColor="@color/black"
+                android:textSize="15.8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/holadosdos" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="13dp"
+                android:text="Siguenos en Facebook"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/inst" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="13dp"
+                android:text="Siguenos en Instagram"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
